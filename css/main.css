@@ -2,8 +2,13 @@
     box-sizing: border-box;
 }
 
+html {
+    align-content: center;
+}
+
 header {
     margin: 1em;
+    color: #FFF8DC;
 }
 
 body {
