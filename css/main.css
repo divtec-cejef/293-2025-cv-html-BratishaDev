@@ -4,7 +4,7 @@
 
 header {
     padding: 1em;
-    color: #FFF8DC;
+    background-color: #FFF8DC;
 }
 
 body {
@@ -14,7 +14,8 @@ body {
     line-height: 1.4;
     color: darkblue;
     background-color: whitesmoke;
-    align-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 img {
