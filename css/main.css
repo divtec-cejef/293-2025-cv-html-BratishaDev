@@ -5,11 +5,9 @@
 header {
     padding: 1em;
     background-color: #FFF8DC;
+    text-align: center;
+    align-items: center;
 }
-header h1 {
-    font-size: 3em;
-}
-
 body {
     font-family: Arial, sans-serif;
     font-weight: 400;
@@ -24,6 +22,10 @@ header, main, footer {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+}
+
+#top h1 {
+    font-size: 3em;
 }
 
 img {
