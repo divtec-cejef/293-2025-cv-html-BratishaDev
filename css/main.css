@@ -14,8 +14,13 @@ body {
     line-height: 1.4;
     color: darkblue;
     background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
+}
+
+header, main, footer {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 img {
@@ -36,4 +41,8 @@ a {
 
 a:hover {
     color: darkmagenta;
+}
+
+footer {
+    margin: 1em;
 }
