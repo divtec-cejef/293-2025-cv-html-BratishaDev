@@ -17,6 +17,17 @@ header {
     padding-left: 0px;
 }
 
+.menu a {
+    color: deeppink;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.menu a:hover {
+    color: darkmagenta;
+    transform: scale(1.1);
+}
+
 body {
     font-family: Arial, sans-serif;
     font-weight: 400;
@@ -50,16 +61,6 @@ img {
 .logo img {
     width: 30%;
     height: auto;
-}
-
-a {
-    color: deeppink;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    color: darkmagenta;
-    transform: scale(1.1);
 }
 
 .row-container {
