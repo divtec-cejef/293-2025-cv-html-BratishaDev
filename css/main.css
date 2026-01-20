@@ -57,9 +57,9 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.menu a:hover {
     color: darkmagenta;
-    font-size: 1.3rem;
+    transform: scale(1.1);
 }
 
 .row-container {
